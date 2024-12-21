@@ -1,0 +1,147 @@
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #f0f0f0;
+  background-color: #121212;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.contact-details {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.contact-details h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.contact-details ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.contact-details ul li {
+  margin-bottom: 0.5rem;
+}
+
+
+.contact-form {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.contact-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #b3b3b3;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+}
+
+.contact-form button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #388e3c;
+}
+
+
+.about-us {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.about-us h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.about-us p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #b3b3b3;
+}
+
+
+@media (max-width: 768px) {
+  .contact-container {
+      padding: 1rem;
+  }
+
+  .contact-details, .contact-form, .about-us {
+      padding: 1rem;
+  }
+
+  .contact-details h2, .contact-form h2, .about-us h2 {
+      font-size: 1.5rem;
+  }
+
+  .contact-details ul li, .about-us p {
+      font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-details h2, .contact-form h2, .about-us h2 {
+      font-size: 1.2rem;
+  }
+
+  .contact-details ul li, .about-us p {
+      font-size: 0.8rem;
+  }
+
+  .contact-form input, .contact-form textarea {
+      font-size: 0.9rem;
+  }
+
+  .contact-form button {
+      font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,42 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #202020;
+    color: #EDEDED; 
+    line-height: 1.6;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  p {
+    font-family: 'Calibri', sans-serif;
+    color: #F2F2F2; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  

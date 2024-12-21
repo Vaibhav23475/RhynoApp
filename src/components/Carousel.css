@@ -1,0 +1,87 @@
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #1e1e1e; 
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+ 
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+ 
+  .carousel-card {
+    min-width: 90%;
+    max-width: 600px;
+    flex: 0 0 auto;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #2c2c2c; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+  }
+  
+
+  .carousel-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .carousel-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  .carousel-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #f9f9f9; 
+    font-family: 'Poppins', sans-serif;
+  }
+  
+ 
+  .carousel-card p {
+    font-size: 1rem;
+    color: #cfcfcf; 
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-card {
+      padding: 1rem;
+    }
+  
+    .carousel-card h3 {
+      font-size: 1.5rem;
+    }
+  
+    .carousel-card p {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .carousel-card {
+      padding: 0.5rem;
+    }
+  
+    .carousel-card h3 {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-card p {
+      font-size: 0.8rem;
+    }
+  }

@@ -1,0 +1,120 @@
+
+.services-container {
+  background-color: #2C2A2A; 
+  color: #EDEDED; 
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.cart-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #F9ED32; 
+  font-weight: 600;
+}
+
+
+.specification-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+
+.spec-card {
+  background-color: #3C3C3C; 
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #373737; 
+}
+
+
+.spec-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.spec-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+}
+
+
+.spec-content h3 {
+  font-size: 1.6rem;
+  color: #F9ED32; 
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+
+.spec-details p {
+  font-size: 1rem;
+  color: #F2F2F2; 
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+
+.spec-details p strong {
+  color: #F9ED32; 
+}
+
+
+.buy-now-btn {
+  display: block;
+  background-color: #F9ED32; 
+  color: #2C2A2A; 
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.buy-now-btn:hover {
+  background-color: #FFF225; 
+}
+
+
+@media (max-width: 768px) {
+  .spec-card {
+    width: 48%;
+  }
+  .buy-now-btn {
+    padding: 0.8rem 1.2rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .spec-card {
+    width: 100%;
+  }
+
+  .cart-heading {
+    font-size: 2rem;
+  }
+
+  .buy-now-btn {
+    padding: 0.8rem 1rem;
+  }
+}
